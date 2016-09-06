@@ -1,36 +1,53 @@
+//
+//  main.cpp
+//  pc++project
+//
+//  Created by Timothy Mellor on 27/08/2016.
+//  Copyright © 2016 Timothy Mellor. All rights reserved.
+//
+
+#include <iostream>
+using namespace std;
+
+
+
+
+
+
 int main()
+
 {
+    
+  
+    
+    // creates initial variables x and y
+    
+    int  number =0;
+    
+    int x =0 , y =0;
     
     // this prints hello then asks the user to think of a number
     
-    int number;
-    
     cout << "hello world \n\n";
     cout << "please think of a number \n\n";
-    
-    /* alot of comments that need multi line
-     comments can be  written
-     like this 
-     and you can have as many as you like */
-    
+    cout << "\nNB: the number should be less than 1000  \n\n";
+    cin >> number;
     
     // this line reminds the user that the number can not be larger than a certain number , which is set at 1000 intially
     
-    int x =2 , y =4;
+    cout << "\n\ni think the number you chose is "; cout << number; cout << " \n\nis that correct ?\n\n";
     
+    cout << "enter x value  ";
+    cin >> x;
+    
+    cout << "\n\nenter y value  ";
+    cin >> y;
+    
+    cout << "\n\ncurrently\n\nx="; cout << x;  cout << "\n\nand\n\ny=";cout << y; cout <<"\n\n";
+
     int sum =x+y;
     
-    int guessnumber = 497;
-    
-    cout << "NB: the number should be less than 1000  \n\n";
-    
-    cout << "i think the number you chose is "; cout << guessnumber; cout << " \n\nis that correct ?\n\n";
-    
-    cout << "currently\n\nx="; cout << x;  cout << "\n\nand\n\ny=";cout << y; cout <<"\n\n";
-
-    
     cout << "the sum of these numbers is ="; cout << sum; cout <<"\n\n";
-    
     
     return 0;
 }
