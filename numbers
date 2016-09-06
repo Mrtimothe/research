@@ -1,0 +1,36 @@
+int main()
+{
+    
+    // this prints hello then asks the user to think of a number
+    
+    int number;
+    
+    cout << "hello world \n\n";
+    cout << "please think of a number \n\n";
+    
+    /* alot of comments that need multi line
+     comments can be  written
+     like this 
+     and you can have as many as you like */
+    
+    
+    // this line reminds the user that the number can not be larger than a certain number , which is set at 1000 intially
+    
+    int x =2 , y =4;
+    
+    int sum =x+y;
+    
+    int guessnumber = 497;
+    
+    cout << "NB: the number should be less than 1000  \n\n";
+    
+    cout << "i think the number you chose is "; cout << guessnumber; cout << " \n\nis that correct ?\n\n";
+    
+    cout << "currently\n\nx="; cout << x;  cout << "\n\nand\n\ny=";cout << y; cout <<"\n\n";
+
+    
+    cout << "the sum of these numbers is ="; cout << sum; cout <<"\n\n";
+    
+    
+    return 0;
+}
